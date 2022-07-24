@@ -94,8 +94,12 @@ padding: 18px 17px 22px 17px;
     border-bottom:2px solid blue;
     transition: 0.1s;
 }
+#about ul li a:hover span, #about .using>li:hover>a>span{
+    border-bottom:2px solid blue;
+    transition: 0.1s;
+}
 
-.sub-wrapper-community,.sub-wrapper-healthy,.sub-wrapper-programs,.sub-wrapper-workout{
+.sub-wrapper-community,.sub-wrapper-healthy,.sub-wrapper-programs,.sub-wrapper-workout,.sub-wrapper-about{
     width: 100%;
     height: auto;
     
