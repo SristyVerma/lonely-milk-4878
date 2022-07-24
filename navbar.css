@@ -1,9 +1,14 @@
 #navbar{
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     margin-top: 30px;
     align-items: center;
+}
+#home{
+    cursor: pointer;
+    height: 50px;
+    margin-right: 10px;
 }
 #first{
     display:flex;
@@ -43,14 +48,6 @@ text-decoration: none;
 #logo i{
     color: black;
 }
-#navbar>a{
-     cursor: pointer;
-}
-#firstimg{
-    margin-right: -230px;
-    height: 50px;
-    margin-left: 60px;
-}
 header{
     font-family: "Maison Neue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
     font-size:14.5px;
@@ -59,11 +56,11 @@ header{
     list-style-type: none;
     }
     #container{
-    width: 100%;
+    width: 90%;
     }
     #wrapper{
-    width: 980px;
-    margin:0px auto;
+    width: 100%;
+    margin:0px auto;;
     }
     #wrapper h3{
         color: #fff;
