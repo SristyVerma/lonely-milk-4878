@@ -1,0 +1,156 @@
+body{
+margin:0;
+padding: 0;
+font-family: "Maison Neue","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+font-size:14.5px;
+}
+ul li{
+list-style-type: none;
+}
+#container{
+width: 100%;
+}
+#wrapper{
+width: 980px;
+margin:0px auto;
+}
+h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 12px;
+    margin: 0;
+    padding: 0 0 12px 0;
+}
+ul{
+    margin: 0;
+    padding:0;
+}
+li.pad{
+float: left;
+
+}
+#holder li{
+    color:orange;
+    text-decoration: none;
+    transition: 0.1s;
+}
+a{
+    color:#212432;;
+    text-decoration: none;
+    display: block;
+    transition: 0.1s;
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    position: static;
+    
+}
+.pad a{
+padding: 18px 17px 22px 17px;
+
+}
+#holder ul{
+    width: 100%;
+}
+#holder ul li span{
+    padding:7px 0;
+}
+.pad>a:hover, .using>li:hover>a{
+    background-color: #fff
+
+    
+    
+    
+}
+#membership ul li a:hover span{
+    transition: 0.1s;
+    border-bottom:2px solid blue;
+    
+}
+#membership a{
+    color: #4296cb;;
+}
+i{
+    color: #4296cb;;
+}
+#store ul li a:hover span{
+    transition: 0.1s;
+    border-bottom:2px solid blue;
+}
+#workout ul li a:hover span, #workout .using>li:hover>a>span{
+    border-bottom:2px solid blue;
+    transition: 0.1s;
+    
+}
+
+.sub-wrapper-workout a:hover{
+    color:green;
+    
+}
+#programs ul li a:hover span, #programs .using>li:hover>a>span{
+    border-bottom:2px solid blue;
+    transition: 0.1s;
+    
+}
+
+
+#healthy ul li a:hover span, #healthy .using>li:hover>a>span{
+    border-bottom:2px solid blue;
+    transition: 0.1s;
+}
+
+#community ul li a:hover span, #community .using>li:hover>a>span{
+    border-bottom:2px solid blue;
+    transition: 0.1s;
+}
+#about ul li a:hover span, #about .using>li:hover>a>span{
+    border-bottom:2px solid blue;
+    transition: 0.1s;
+}
+
+.sub-wrapper-community,.sub-wrapper-healthy,.sub-wrapper-programs,.sub-wrapper-workout,.sub-wrapper-about{
+    width: 100%;
+    height: auto;
+    
+    position: absolute;
+    left:0;
+    padding:40 0;  
+   
+}
+
+#holder ul li>ul{
+    position: absolute;
+    left:-20000px;
+  
+    
+    
+   
+}
+
+#holder ul li:hover ul{
+    left:0;
+   
+    
+}
+.full{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
